@@ -1,0 +1,216 @@
+<!-- Gemaakt door: Emiel De Waele -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/elements.css">
+    <title>W4Skoels - Elements</title>
+</head>
+<body>
+    <nav>
+        <h2>HTML Tutorial</h2>
+        <a href="main.html">HTML Introduction</a>
+        <a href="editors.html">HTML Editors</a>
+        <a href="basis.html">HTML Basis</a>
+        <a href="#" class="active-nav">HTML Elements</a>
+        <a href="#">HTML Attributes</a>
+        <a href="#">HTML Headings</a>
+        <a href="#">HTML Paragraphs</a>
+        <a href="#">HTML Styles</a>
+        <a href="#">HTML Formatting</a>
+        <a href="#">HTML Quotations</a>
+        <a href="#">HTML Comments</a>
+        <a href="#">HTML Colors</a>
+        <a href="#">HTML CSS</a>
+        <a href="#">HTML Links</a>
+        <a href="#">HTML Images</a>
+        <a href="#">HTML Favicon</a>
+        <a href="#">HTML Tables</a>
+        <a href="#">HTML Lists</a>
+        <a href="#">HTML Block & Inline</a>
+        <a href="#">HTML Classes</a>
+        <a href="#">HTML Id</a>
+        <a href="#">HTML Iframes</a>
+        <a href="#">HTML Javascript</a>
+        <a href="#">HTML File Paths</a>
+        <a href="#">HTML Head</a>
+        <a href="#">HTML Layout</a>
+        <a href="#">HTML Responsive</a>
+        <a href="#">HTML Computercode</a>
+        <a href="#">HTML Semantics</a>
+        <a href="#">HTML Style Guide</a>
+        <a href="#">HTML Entities</a>
+        <a href="#">HTML Symbols</a>
+        <a href="#">HTML Emojis</a>
+        <a href="#">HTML Charset</a>
+        <a href="#">HTML URL Encode</a>
+        <a href="#">HTML vs. XHTML</a>
+
+    </nav>
+    <section>
+        <header>
+            <h1 class="EDW">HTML Elementen</h1>
+            <a href="basis.html" class="previous"><span>❮ Vorige</span></a>
+            <a href="#" class="next"><span>Volgende ❯</span></a>
+        </header>
+        <hr>
+        <p class="intro">Een HTML element is gedefineert door een start tag, de content en de sluitingstag.</p>
+        <hr>
+        <article class="a">
+            <h3>Wat is een HTML Element?</h3>
+            <p class="klein">Een HTML element is gedefineert door een start tag, de content, en een sluitingstag:</p>
+            <p class="groot"><span class="bracket"><</span><span class="tag">tagname</span><span class="bracket">></span>Content komt hier...<span class="bracket"><</span><span class="tag">/tagname</span><span class="bracket">></span></p>
+            <p class="klein">Het HTML <span class="bold">element</span> is alles van de start tag tot de sluitingstag:</p>
+            <p class="groot"><span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading<span class="bracket"><</span><span class="tag">/h1</span><span class="bracket">></span></p>
+            <p class="groot"><span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span></p>
+            <table>
+                <tr class="white">
+                    <th>Start tag</th>
+                    <th>Element content</th>
+                    <th>End tag</th>
+                </tr>
+                <tr class="gray">
+                    <td>&lt;h1&gt;</td>
+                    <td>Mijn eerste heading</td>
+                    <td>&lt;/h1&gt;</td>
+                </tr>
+                <tr class="white">
+                    <td>&lt;p&gt;</td>
+                    <td>Mijn eerste paragraph</td>
+                    <td>&lt;/p&gt;</td>
+                </tr>
+                <tr class="gray">
+                    <td>&lt;br&gt;</td>
+                    <td>niks</td>
+                    <td>geen</td>
+                </tr>
+            </table>
+            <div class="a-a">
+                <p><span class="bold">Let op:</span> Sommige HTML elementen hebben geen content (zoals het &lt;br&gt; element). <br> Deze elementen worden lege elementen genoemd. Lege elementen hebben geen sluitingstag!</p>
+            </div>
+        </article>
+        <hr>
+        <article class="b">
+            <h3>Nested HTML elementen.</h3>
+            <p class="klein">HTML elementen kunnen worden genest.</p>
+            <p class="klein">Alle HTML documenten bestaan uit geneste HTML elementen.</p>
+            <p class="klein">De volgende voorbeelden bestaan uit 4 elementen (<span class="full-tag">&lt;html&gt;</span>, <span class="full-tag">&lt;body&gt;</span>, <span class="full-tag">&lt;h1&gt;</span> en <span class="full-tag">&lt;p&gt;</span>):</p>
+            <div class="b-a">
+                <h4>Voorbeeld</h4>
+                <div class="b-b">
+                    <span class="bracket"><</span><span class="tag">!DOCTYPE </span><span class="attribute">html</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">html</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">body</span><span class="bracket">></span>
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading.<span class="bracket"><</span><span class="tag">/h1</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph.<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span>
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">/body</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">/html</span><span class="bracket">></span>
+                </div>
+                <a href="https://codepen.io/pen" target="_blank" class="coding-button"><span>Probeer het zelf!</span></a>
+            </div>
+            <h4>Voorbeel uitgelegd</h4>
+            <p class="klein">Het <span class="full-tag">&lt;html&gt;</span> element is het root element en het defineert het volledige HTML document.</p>
+            <p class="klein">het heeft een start tag <span class="full-tag">&lt;html&gt;</span> en een sluitingstag <span class="full-tag">&lt;/html&gt;</span>.</p>
+            <p class="klein">Dan, in het <span class="full-tag">&lt;html&gt;</span> element is er een <span class="full-tag">&lt;body&gt;</span> element:</p>
+            <div class="b-c">
+                <div class="b-d">
+                    <span class="bracket"><</span><span class="tag">body</span><span class="bracket">></span>
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading.<span class="bracket"><</span><span class="tag">/h1</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph.<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span>
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">/body</span><span class="bracket">></span>
+                </div>
+            </div>
+            <p class="klein">Het <span class="full-tag">&lt;body&gt;</span> element defineert het document zijn body.</p>
+            <p class="klein">Het heeft een start tag <span class="full-tag">&lt;body&gt;</span> en een sluitingstag <span class="full-tag">&lt;/body&gt;</span>.</p>
+            <p class="klein">In het <span class="full-tag">&lt;body&gt;</span> element zitten 2 andere elementen: <span class="full-tag">&lt;h1&gt;</span> en <span class="full-tag">&lt;p&gt;</span>:</p>
+            <div class="b-e">
+                <div class="b-f">
+                    <span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading.<span class="bracket"><</span><span class="tag">/h1</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph.<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span>
+                </div>
+            </div>
+            <p class="klein">Het <span class="full-tag">&lt;h1&gt;</span> element defineert een heading</p>
+            <p class="klein">Het heeft een start tag <span class="full-tag">&lt;h1&gt;</span> en een sluitingstag <span class="full-tag">&lt;/h1&gt;</span>:</p>
+            <div class="b-g">
+                <div class="b-h">
+                    <span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading.<span class="bracket"><</span><span class="tag">/h1</span><span class="bracket">></span>
+                </div>
+            </div>
+            <p class="klein">Het <span class="full-tag">&lt;p&gt;</span> element defineert een paragraph.</p>
+            <p class="klein">Het heeft een start tag <span class="full-tag">&lt;p&gt;</span> en een sluitingstag <span class="full-tag">&lt;/p&gt;</span>:</p>
+            <div class="b-g">
+                <div class="b-h">
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph.<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span>
+                </div>
+            </div>
+        </article>
+        <hr>
+        <article class="c">
+            <h3>Sla nooit een sluitingstag over</h3>
+            <p class="klein">Sommige HTML elementen zullen correct vertoond worden, zelf als je de sluitingstag vergeet:</p>
+            <div class="b-a">
+                <h4>Voorbeeld</h4>
+                <div class="b-b">
+                    <span class="bracket"><</span><span class="tag">!DOCTYPE </span><span class="attribute">html</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">html</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">body</span><span class="bracket">></span>
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">h1</span><span class="bracket">></span>Mijn eerste heading.
+                    <br>
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Mijn eerste paragraph.
+                    <br><br>
+                    <span class="bracket"><</span><span class="tag">/body</span><span class="bracket">></span>
+                    <br>
+                    <span class="bracket"><</span><span class="tag">/html</span><span class="bracket">></span>
+                </div>
+                <a href="https://codepen.io/pen" target="_blank" class="coding-button"><span>Probeer het zelf!</span></a>
+            </div>
+            <p class="klein"><span class="bold">PAS OP: Vertrouw hier nooit op! Zorg altijd voor een sluitingstag wanneer nodig.</span></p>
+        </article>
+        <hr>
+        <article class="d">
+            <h3>Lege HTML elementen</h3>
+            <p class="klein">HTML elementen met geen content worden lege elementen genoemd.</p>
+            <p class="klein">De <span class="full-tag">&lt;br&gt;</span> tag defineert een line break, en is een leeg element zonder sluitingstag:</p>
+            <div class="d-a">
+                <h4>Voorbeeld</h4>
+                <div class="d-b">
+                    <span class="bracket"><</span><span class="tag">p</span><span class="bracket">></span>Dit is een<span class="bracket"><</span><span class="tag">br</span><span class="bracket">></span> paragraph met een line break.<span class="bracket"><</span><span class="tag">/p</span><span class="bracket">></span>
+                </div>
+                <a href="https://codepen.io/pen" target="_blank" class="coding-button"><span>Probeer het zelf!</span></a>
+            </div>
+        </article>
+        <hr>
+        <article class="e">
+            <h3>HTML is niet hoofdletter gevoelig</h3>
+            <p class="klein">HTML tags zijn niet hoofdletter gevoelig: <span class="full-tag">&lt;P&gt;</span> betekend hetzelfde als <span class="full-tag">&lt;p&gt;</span>.</p>
+            <p class="klein">De HTML standaard vereist geen lowercase tags, maar iedereen gebruikt standaard lowercase. Dit raden we jou ook ZEKER aan om te doen.</p>
+            <div class="e-a">
+                <p><span class="bold">Let op:</span> Op school gebruiken we altijd lowercase</p>
+            </div>
+        </article>
+        <hr>
+        <header>
+            <a href="basis.html" class="previous"><span>❮ Vorige</span></a>
+            <a href="#" class="next"><span>Volgende ❯</span></a>
+        </header>
+    </section>
+    <aside class="reclame"></aside>
+</body>
+</html>
