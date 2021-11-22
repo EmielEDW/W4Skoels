@@ -28,6 +28,7 @@ Recap of my major learnings while working through this project:
 - I learned a very basic way to organize my css code.
 - I learned that It is important to have a good layout.
 - I learned how to build a bigger project. This is my biggest website so far.
+- I learned how to implement a favicon into a html page. (with the use of <link>)
 
 ### Continued development
 
